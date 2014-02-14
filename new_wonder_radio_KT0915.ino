@@ -1,3 +1,10 @@
+/*
+ * DSP Radio (KT0915) control program on Arduino IDE
+ *
+ *  Created on: Feb. 13 , 2013
+ *      Author: kodera2t
+ */
+
 #include "fm_station.h"
 #include "air_station.h"
 #include "timetable.h"
