@@ -1,7 +1,7 @@
 /*
  * DSP Radio (KT0915) control program on Arduino IDE
  *
- *  Created on: Feb. 13 , 2013
+ *  Created on: Feb. 13 , 2014
  *      Author: kodera2t
  */
 
