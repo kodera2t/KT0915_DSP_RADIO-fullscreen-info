@@ -1,9 +1,7 @@
 KT0915_DSP_RADIO-fullscreen-info
 ================================
 
-KT0915 Software Radio with full-screen (1.8inch SPI Color LCD) interface, capable of reception for LW, MW, SW, FM 
-and Air Band (Avion). Air band reception is not perfect due to mode difference (FM to AM), but you will hear some 
-ACARS signal and GND/TWR calling. Shortwave station information should be prepared by timetable.h, and FM by fmstation.h.
+Arduino source for KT0915 Software Radio with full-screen (1.8inch SPI Color LCD) interface, capable of reception for LW, MW, SW, FM and Air Band (Avion). Air band reception is not perfect due to mode difference (FM to AM), but you will hear some ACARS signal and GND/TWR calling. Shortwave station information should be prepared by timetable.h, and FM by fmstation.h.
 In this update, I added air_station.h which include avion stations. Please edit for your local stations.
 To complete this radio, KT0915 chip, Arduino UNO (or ATMega328P, 168 is not enough to accomodate.), SPI 1.8inch ST7735
 module, rotary encorder and band switch. Connection to LCD is same as Arduino TFT.h sample, and rotary encorder should be 
